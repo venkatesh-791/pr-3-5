@@ -3,47 +3,50 @@
     padding: 0;
 }
 #main{
-   background-color: br own;
+   width: 100%;
    display: flex;
    flex-direction: column;
+   background-color: a qua;
+   
 }
 #main_container{
     display: flex;
     margin-top: 25px;
-    
-
+    background-color: r ed;
 }
 .logo{
-    width: 120px;
-    
+    width: 120px;   
     margin-left: 160px;
 }
 .m{
     margin-left: 20px;
-    margin-top: 35px;;
-     
+    margin-top: 35px;    
 }
 .Dr{
     font-size: 20px;
     margin-top: 45px;  
-    margin-left: 60px;
+    margin-left: 60px;  
+}
+#leftright{
+    flex-direction: row;
+    display: flex;
     
-   
 }
 #lefting{ 
    flex-direction: column;
    display: flex;
-   flex: column 20%;
    
-   background-color: rg0b(185, 255, 127);
+   
+   width: 20%;
+   background-color: rg b(185, 255, 127);
    
 }
 #firstleft{
   
-      flex-direction: column;
+    
       flex: 30%;
       background-color: bl0ueviolet;
-      width: 20%;
+      
       height: 20%;
     
 }
@@ -89,42 +92,58 @@
 }
 #secondleft{
    
-    
+    margin-top: 65px;
     line-height: 7px;
     background-color: r0gb(255, 0, 176);
-    flex-direction: column;
+    flex-direction:  70% column;
     flex: 70%;  
-    width: 20%;
-}
-.menubar{
-    margin-left: 135px;
-    font-size: 20px;
-    background-color: be ige;
     
-  
 }
-.menubar:hover{
+#secondleft{
+    line-height: 40px;
+     
+    flex-direction: row;
+}
+
+#menubar{
+    display: flex;
+    flex-direction: row;
+ 
+}
+.first{  
+    margin-left: 155px;
+    margin-top: 10px;     
+    transform: scale(1);    
+}
+.second{
+    margin-top: 2px; 
+}
+
+#menubar :hover{
     color: tomato;
+    list-style-type: none;  
 }
 #righting{
-    background-color: rgb(221, 229, 236);
+    background-color: rgb(221, 229, 236);  
     width: 1400px;
-    height: 910px;
+    height: 950px;
     position: absolute;
     margin-top: 20px;
     margin-left: 375px;
-    top: 100px;
+    top: 105px;
+    wi dth: 74%;
     
 }
+
 .rightone{
     font-size: 25px;
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
-     
+    padding-top: 20px;  
+    justify-content: space-between; 
 }
 .app{    
-    padding-left: 20px;  
+     padding-left: 20px;
 }
 .searchright{
     justify-content: right;
@@ -135,9 +154,7 @@
 .search{    
     align-items: baseline;
     float: left;
-    background: none;
-    
-    
+    background: none;   
 }
 .o{
     display: flex;
@@ -155,18 +172,13 @@
 }
 .filter{
     padding-left: 30px;
-    display: flex;
-    
+    display: flex;  
 }
 .r{
-    display: flex;
-   
-    
+    display: flex; 
 }
 .s{
-    flex-direction: row;
-   
-     
+    flex-direction: row;    
 }
 .fil{
     width: 20px;
@@ -200,9 +212,9 @@
 #naming{
     display: flex;
     padding-top: 60px;
-    padding-left: 1px;
+   
     font-size: 17px;
-    justify-content: space-evenly               ;
+    justify-content: space-evenly;
     padding-bottom: 10px;
     border-bottom: 0.1px solid rgb(175, 169, 169);
     
@@ -255,8 +267,8 @@
 }
 .on{
     width: 40px;
-    border-radius: 100%;
-    padding-left: 35px;
+    border-radius: 40%;
+   
 
 }
 .isac{
@@ -273,3 +285,13 @@
 .n{
     width: 20px;  
 }
+
+@media screen and (max-width:1000px){ 
+     #main { background-color: red;
+        
+    }
+      
+    
+}
+
+ 
